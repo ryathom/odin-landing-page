@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-.header, .main.section-one {
+.header, .main .section-one {
   background-color: #1f2937;
   color: #f9faf8;
   display: flex;
@@ -36,4 +36,43 @@ body {
   font-size: 16px;
   color: #e5e7eb;
   list-style-type: none;
+}
+
+.main .section-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero, .image {
+  width: 300px;
+  margin: 48px;
+}
+
+.hero .hero-text{
+  font-size: 48px;
+  font-weight: 900;
+  margin: 8px;
+}
+
+.hero-subtext {
+  font-size: 16px;
+  color: #e5e7eb;
+}
+
+.sign-up-button {
+  background-color: #3882F6;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.image {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  padding: 30px;
 }
