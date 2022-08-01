@@ -128,6 +128,36 @@ body {
   font-weight: 100;
 }
 
+.section-three {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+}
+
+.quote-box {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937
+}
+
+.quote-attribute {
+  font-size: 24px;
+  text-align: right;
+  align-self: flex-end;
+  font-weight: bold;
+}
+
 p {
   margin: 0;
 }
