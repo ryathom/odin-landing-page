@@ -10,19 +10,16 @@ body {
   margin: 0;
 }
 
-.header, .main .section-one {
+.header, .section-one {
   background-color: #1f2937;
   color: #f9faf8;
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.header {
-  display: flex;
   justify-content: space-between;
-  padding-left: 32px;
-  padding-right: 16px;
+  padding-left: 120px;
+  padding-right: 120px;
+  gap: 48px;
 }
 
 .header .h1 {
@@ -38,33 +35,40 @@ body {
   list-style-type: none;
 }
 
-.main .section-one {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.hero, .image {
+  flex: 1;
+  height: 200px;
+  width: 300px;
+  margin-bottom: 120px;
+  margin-top: 120px;
 }
 
-.hero, .image {
-  width: 300px;
-  margin: 48px;
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-evenly;
+  text-align: left;
 }
 
 .hero .hero-text{
   font-size: 48px;
   font-weight: 900;
-  margin: 8px;
 }
 
 .hero-subtext {
   font-size: 16px;
   color: #e5e7eb;
+  margin-bottom: 1em;
+  margin-left: 0.5em;
 }
 
 .sign-up-button {
   background-color: #3882F6;
-  padding: 10px;
+  width: 100px;
   border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
   text-align: center;
 }
 
@@ -74,5 +78,57 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 12px;
-  padding: 30px;
+  border-radius: 10px;
 }
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
+  padding-right: 120px;
+  align-items: center;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937
+}
+
+.info-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 200px;
+  margin-bottom: 120px;
+}
+
+.info-img {
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 10px;
+  border-color: #3882F6;
+  margin: 5px;
+}
+
+.caption {
+  color: grey;
+  width: 150px;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+p {
+  margin: 0;
+}
+
